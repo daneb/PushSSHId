@@ -2,7 +2,15 @@
 
 A simple tool to allow the admin to deploy a mass subset of keys to multiple machines mirroring the functionality of ssh-copy-id.
 
-PS. To ignore Key Generation use -g
+#### Simple Example
+
+```
+Dane-Balias-MacBook:PushSSHId danebalia$ ruby pushId.rb
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/danebalia/.ssh/id_rsa):
+```
+
+#### PS. To ignore Key Generation use -g
 
 ```
 Dane-Balias-MacBook:PushSSHId danebalia$ ruby pushId.rb -g
